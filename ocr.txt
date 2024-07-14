@@ -1,0 +1,3 @@
+OCR is Optical Character Recognition, which can read characters individually and print it out in online text.
+Plugging in long essay images can convert it into a long online essay.
+You can plug this into an AI to simplify and summarize the entire passage.
