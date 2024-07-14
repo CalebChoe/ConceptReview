@@ -1,0 +1,3 @@
+$(document).ready( function() {
+    $("#Game_Desc").click( function() { windowlocation.href ="https://CalebChoe.github.io/web/#Game_Desc"; });  
+  });

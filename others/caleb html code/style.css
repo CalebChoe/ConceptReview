@@ -1,0 +1,11 @@
+.nav-bar > .element {
+      width: 15.5%;
+      line-height: 50px;
+      text-align: center;
+      color: white;
+      display: inline-block;
+      margin: 0;
+      font-family: Arial;
+      font-size:10px;
+      text-decoration: none;
+  }

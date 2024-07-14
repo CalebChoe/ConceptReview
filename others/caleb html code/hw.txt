@@ -1,0 +1,61 @@
+HTML
+Hyper Text Markup Language
+
+
+HW 6/4:
+#hw:
+1)make BST from scratch
+2)letting me know whether making website using github page worked
+3) updating website about data structures you learned. Write
+how each of them works and talk a bit about O(1). also how to return a reversed
+list in fast manner
+
+Essay of comparing Python and C
+#Key words/points: interpretation, compiling, machine code, executing 
+
+Playing different music for different screens or events of the game
+
+Ask teacher Josh for basic template of web.html on gmail + prepare a design of how you want your web page to look (can be drawing or done on computer. What kind of content do you want to have on your web?)
+
+Send Github link through gmail + update latest game to your github
+
+Read up on examples of malloc, xalloc and other types of allocation functions in C. Prepare me example codes you encountered and thought were cool or interesting. 
+
+My essay:
+
+    Although Python and C are both object-oriented programing languages, both have many differences. Python uses compiling and interpretation to read the machine code, so that it can start executing the code. C requires the coder making their own space and many things must be created by type, unlike python which has many "assisted" features hard-drived into the language. Python is slower due to more premade features. Both have ups and downs, and in the end, Python is easier to code, but C is faster. Coders have 2 great options.
+
+Link:
+
+https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/
+
+Definitions:
+
+C malloc() method
+The “malloc” or “memory allocation” method in C is used to dynamically allocate a single large block of memory with the specified size. It returns a pointer of type void which can be cast into a pointer of any form. It doesn’t Initialize memory at execution time so that it has initialized each block with the default garbage value initially. 
+
+C calloc() method
+“calloc” or “contiguous allocation” method in C is used to dynamically allocate the specified number of blocks of memory of the specified type. it is very much similar to malloc() but has two different points and these are:
+It initializes each block with a default value ‘0’.
+It has two parameters or arguments as compare to malloc().
+
+C free() method
+“free” method in C is used to dynamically de-allocate the memory. The memory allocated using functions malloc() and calloc() is not de-allocated on their own. Hence the free() method is used, whenever the dynamic memory allocation takes place. It helps to reduce wastage of memory by freeing it.
+
+C realloc() method
+“realloc” or “re-allocation” method in C is used to dynamically change the memory allocation of a previously allocated memory. In other words, if the memory previously allocated with the help of malloc or calloc is insufficient, realloc can be used to dynamically re-allocate memory. re-allocation of memory maintains the already present value and new blocks will be initialized with the default garbage value.
+
+HW: check out data structures: queue, stack, set, dequeue
+Linked list
+
+write an essay showing how they differ
+
+The queue data structure works like a queue, what is at the front gets read first, and first to be dequeued. It does not range from smallest to biggest, only first in queue to last in the queue.
+
+The stack data structure works like queue, but the top gets removed, or "pop"ed out first.
+
+A set can work like a binary search tree, "bigger or higher?". No duplicates. It can check if an element is present. It can be an organized set or not. (order number wise)
+
+A dequeue or "Double Ended Queue" is a type of queue that allows input on a singular side by choice, then is allowed to take from either end in the queue.
+
+These data structures can be checked if empty or full.
