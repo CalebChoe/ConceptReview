@@ -1,0 +1,4 @@
+Sets and dictionaries are unordered data structures.
+Lists are ordered.
+Sets and dictionaries are faster at locating items, but they can not be indexed like how lists are.
+If you try to find a value in a set or dict using index, you will get an error.
