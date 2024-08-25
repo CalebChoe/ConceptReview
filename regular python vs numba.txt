@@ -1,0 +1,24 @@
+regular python vs numba
+numba is very fast in certain things that usually take a long time to do in regular python.
+
+
+from numba import njit
+import random
+import time
+
+
+@njit
+def monte_carlo_pi(nsamples):
+    acc = 0
+    for i in range(nsamples):
+        x = random.random()
+        y = random.random()
+        if (x ** 2 + y ** 2) < 1.0:
+            acc += 1
+    return 4.0 * acc / nsamples
+
+running the following code using monte_carlo_pi with and without @njit can teach a lot of things about the difference between python and numba.
+Numba runs faster when nsamples is a high number, being hundreds of times faster.
+Python takes hours to run high numbers, while numba consistently takes a somewhat quick amount of time to do all numbers.
+Python is faster with small numbers like 1-10000.
+This is because it takes a lot of time for numba to load and do preparations before running at a very fast speed.
